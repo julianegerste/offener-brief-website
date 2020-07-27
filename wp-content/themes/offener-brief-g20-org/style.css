@@ -1,0 +1,114 @@
+/* @override 
+	https://offener-brief-g20.org/wp-content/themes/offener-brief-g20-org/style.css?ver=4.8 */
+
+/*
+Theme Name:   offener-brief-g20.org
+Author:       offener-brief
+Template:     davis
+Version:      0.5
+*/
+
+/* pt-serif-regular - latin */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Serif'), local('PTSerif-Regular'),
+       url('fonts/pt-serif-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/pt-serif-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* pt-serif-italic - latin */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Serif Italic'), local('PTSerif-Italic'),
+       url('fonts/pt-serif-v8-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/pt-serif-v8-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* pt-serif-700 - latin */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Serif Bold'), local('PTSerif-Bold'),
+       url('fonts/pt-serif-v8-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/pt-serif-v8-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* pt-serif-700italic - latin */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local('PT Serif Bold Italic'), local('PTSerif-BoldItalic'),
+       url('fonts/pt-serif-v8-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/pt-serif-v8-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+header {
+	background: url(header.jpg) center no-repeat;
+	background-size: cover;
+	width: 90%;
+	margin: 0 auto;
+	height: 270px;
+}
+
+header a,
+span#desc {
+	background-color: #fff;
+	padding: 5px;
+}
+
+.menu { 
+	margin: 16px 0 0; 
+	text-align: center;
+	padding-top: 16px;
+	line-height: 40px;
+}
+
+.post:before,
+.comments:before,
+.comment-respond:before,
+.comments .comment-respond:after,
+.pagination:before,
+footer:before {
+	content: "";
+	display: block;
+	height: 16px;
+	margin: 30px auto;
+}
+
+
+footer {
+visibility: hidden !important;
+}
+
+
+
+
+
+
+/*Media Queries*/
+
+
+@media ( max-width: 620px ) {
+
+.toggle-menu {
+    background: #fff;
+}
+
+	header a,
+	span#desc {
+		line-height: 23pt;
+		background-color: #fff !important;
+	}
+	
+	.menu {
+		line-height: 100px;
+
+	}
+	
+
+}
+
